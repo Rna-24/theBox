@@ -1,0 +1,210 @@
+body {
+    font-family: "Work Sans", Arial, sans-serif;
+    color: #14171F;
+    background: #FFFFFF;
+}
+
+.text-secondary {
+    color: #F9995D;
+}
+
+.primary {
+    color: #2947A9;
+}
+
+.blue-bg {
+    background: #2947A9;
+}
+
+.card-bc {
+    background-color: #3559C7;
+}
+
+.gray-bg {
+    background: #F6F8F7;
+}
+
+.theBox-icon {
+    margin-left: 20px;
+    height: 40px; /* Set a consistent height */
+}
+
+.theBox {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.nav-items {
+    margin-right: 20px;
+}
+
+.background1 {
+    width: 100%;
+    background: url('background.jpeg') no-repeat center center;
+    background-size: cover;
+    height: 646px;
+    position: relative;
+}
+
+.background1 h1 {
+    font-size: 72px;
+    margin-left: 100px;
+}
+
+.projects {
+    margin-top: 456px; /* Adjust if necessary */
+    border-radius: 0 0 2px 2px;
+    padding: 20px 10px 10px 10px;
+    z-index: 1;
+    width: 416px; /* Set max width for larger screens */
+}
+
+.projects h5 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.projects p {
+    margin: 20px 0;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.projects button {
+    padding: 4px 20px;
+    gap: 10px;
+    border: none;
+}
+
+#next-btn {
+    border: 0 0 0 2px;
+    border-left: 1px solid whitesmoke;
+}
+.reputation {
+    height: auto; /* Change to auto for responsiveness */
+}
+
+.reasons p {
+    margin: auto;
+}
+
+.about-us {
+    height: auto; /* Change to auto for responsiveness */
+    padding: 20px 0; /* Add some padding for spacing */
+}
+
+.about-us-card {
+    color: white;
+    width: 100%; /* Full width */
+    max-width: 488px; /* Max width */
+    z-index: 1;
+    position: relative; /* Change to relative */
+    margin-top: -245px; /* Adjust as needed */
+    left: 50%; /* Center align */
+    transform: translateX(-50%);
+    padding: 40px;
+    border-radius: 2px;
+    border: 0px;
+}
+
+.aboutUs-img {
+    width: 100%;
+    margin-top: 20px; /* Adjust for spacing */
+    border-radius: 2px 0px 0px 0px;
+    box-shadow: 0px 8px 8px -4px #1118270A;
+}
+
+.aboutUs-content {
+    width: 100%; /* Full width */
+    padding: 0 5px 10px;
+    margin-left: 0; /* Reset margin */
+}
+
+.about-us-card h3 {
+    font-size: 2rem; /* Responsive font size */
+    font-weight: 700;
+    text-align: left;
+    padding: 5px 10px;
+}
+
+.card-btn {
+    width: 100%; /* Full width */
+    max-width: 219px; /* Max width */
+    height: 53px;
+    padding: 16px;
+    border: 2px solid #2947A9;
+    border-radius: 6px;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px; /* Adjust for spacing */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .theBox-icon {
+        margin-left: 10px; /* Reduced margin */
+    }
+
+    .theBox {
+        font-size: 20px; /* Smaller font for mobile */
+    }
+
+    .nav-items {
+        margin-right: 0; /* Remove margin on small screens */
+    }
+
+    .background1 h1 {
+        font-size: 50px; /* Smaller font for mobile */
+        margin-left: 20px; /* Reduced margin */
+    }
+
+    .projects {
+        width: 100%; /* Full width on small screens */
+    }
+
+    /* .projects h5, .projects p {
+        text-align: center; 
+    } */
+    .about-us-card {
+        margin-top: -150px; /* Adjust for smaller screens */
+        padding: 20px; /* Less padding */
+    }
+
+    .about-us-card h3 {
+        font-size: 1.5rem; /* Smaller heading */
+    }
+
+    .card-btn {
+        max-width: 100%; /* Full width on mobile */
+        height: 45px; /* Smaller button */
+    }
+}
+
+@media (max-width: 576px) {
+    .reputation {
+        padding: 20px 0; /* Add padding for smaller screens */
+    }
+
+    .aboutUs-img {
+        margin-top: 10px; /* Less margin */
+    }
+
+    .about-us-card {
+        padding: 15px; /* Less padding */
+    }
+
+    .aboutUs-content {
+        font-size: 14px; /* Smaller text */
+    }
+
+    .card-btn {
+        height: 40px; /* Smaller button */
+    }
+}
+
+
+
