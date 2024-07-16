@@ -84,10 +84,10 @@ body {
     margin: auto;
     
 } 
-.reasons{
+/* .reasons{
     width:292px;
     height: 197px;
-}
+} */
 /* ------------------------------------------------------------------------------------------------ */
 .about-us{
     height: 945px;
@@ -95,7 +95,7 @@ body {
 .about-us-card {
     color: white;
     width: 100%;
-    height: 100%;
+    height:fit-content;
     max-height: fit-content;
     max-width: 488px;
     z-index: 1;
@@ -132,6 +132,7 @@ body {
 
 .card-btn{
     align-self:flex-end;
+    margin-left:10%;
     max-width: 219px;
     max-height: 53px;
     padding: 16px 20px 16px 20px;
@@ -178,43 +179,46 @@ body {
 }
 
 .stat-box {
+    
       padding: 30px;
       gap: 2px;
       border-radius: 4px ;
       border: 1px ;
       box-shadow: 0px 4px 6px -2px #1118270D;
       box-shadow: 0px 12px 16px -4px #1118271A;
-      position: relative;     
+      /* position: relative;      */
+      position: absolute;
 }
 
 .stat-box1 {
     width: 361px;
     height: Hug (155px)px;
-    top: 10%;
-    left: 20%;
+    top: 221px;
+    left: 212px;;
     z-index: 4;
   }
   
 .stat-box2 {
     width: 280px;
     height: Hug (155px)px;
-    bottom: 40%;
+    top:122px;
+    left:512px;
     z-index: 3;
   }
   
 .stat-box3 {
     width: 276px;
     height: Hug (155px)px;
-    bottom: 60%;
-    left: 40%;
+    top: 364px;
+    left: 458px;
     z-index: 4;
   }
   
 .stat-box4 {
     width: 333px;
     height: Hug (155px)px;
-    right:50% ;
-    bottom:50%;
+    top: 469px;
+    left: 261px;
     z-index: 1;
   }
   
@@ -251,16 +255,19 @@ body {
     padding-left:none;
   }
 .experience-box{
-    top: 172px;
-    width: 359px;
+    width: 100%;
+    max-height: fit-content;
+    max-width: 488px;
+    margin-top: 40%;
+    max-width: 359px;
     text-align: left;
 }
   
 .experience-box h2 {
-    /* margin-top: 172px; */
+    margin-top: 172px; 
     font-size: 60px;
     font-weight: 700;
-    /* margin-bottom: 20px; */
+    /* margin-bottom: 20px;*/
   }
   
   .experience-box p {
@@ -287,6 +294,8 @@ body {
     background-color: #f1cf76;
   }  
   
+
+
 /* ------------------------------------------------------------------------------------------------------------------------------- */
 .background2 {
     background: url('background2.png') no-repeat center center; 
@@ -471,7 +480,112 @@ body {
     margin-top: 10px;    
 }
 
-/* Media Queries for Responsiveness */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries for Responsiveness
 @media (max-width: 768px) {
     .theBox-icon {
         margin-left: 80px;
@@ -485,30 +599,30 @@ body {
      margin-right: 50px;
     }
     /* ------------------------------------------------------------------------------- */
-    .background1 {
+    /* .background1 {
         width: 100%;
         position: relative;
     }.background1 h1{
         font-size: 32px;
         margin-left: 100px;
-    }
+    } */
     /* --------------------------------------------------------------------------------------------- */
-    .projects {
-        margin-top: 456px; /* Keep this if you want specific spacing */
+    /* .projects {
+        margin-top: 456px; /* Keep this if you want specific spacing *
         width: 416px;
         height: 190px;
     }
     
     .projects h5 {
         font-weight: 700;    
-        font-size: 20px; /* Bootstrap typically handles font sizes */
+        font-size: 20px; /* Bootstrap typically handles font sizes *
     }
     
     .projects p {
         margin: 20px 0 20px 0;
         font-size: 24px;
         font-weight: 400;    
-    }
+    } */
     /* .projects button{  
         
     }
@@ -517,15 +631,15 @@ body {
       
     } */
     /* ------------------------------------------------------------------------------------ */
-    .reputation {
+    /* .reputation {
         height: 700px;
-        /* Keep this if you need a specific positioning */
+        /* Keep this if you need a specific positioning *
     }
      .reasons p{
         margin: auto;
-    } 
+    }  */
     /* ------------------------------------------------------------------------------------------------ */
-    .about-us{
+    /* .about-us{
         height: 945px;
     }
     .about-us-card {
@@ -554,12 +668,12 @@ body {
         
         font-size: 18px;
         font-weight: 600; 
-        } 
+        }  */
     
     /* --------------------------------------------------------------------------------------------- */
     
     /* ------------------------------------------------------------------------------------------- */
-    .services-sec{
+    /* .services-sec{
         height: 1500px;
         top: 2104px;
     }
@@ -574,13 +688,70 @@ body {
         height:181px;
         top: 122px;
         left: 216px;
-    }
+    } */
     /* ------------------------------------------------------------------------------------------------ */
-    .experience-section {
+/* @media (max-width: 1200px) {
+        .experience-section{
+            height: 1000;
+        }
+        .stat-box1, .stat-box2, .stat-box3, .stat-box4 {
+          width: 100%;
+          height: auto;
+          position: relative;
+          top: auto;
+          left: auto;
+          margin-bottom: 30px;
+        }
+      
+        .stat-box h3 {
+          font-size: 48px;
+        }
+      
+        .stat-box p {
+          font-size: 20px;
+        }
+      }
+      
+@media (max-width: 768px) {
+        .stat-box h3 {
+          font-size: 36px;
+        }
+      
+        .stat-box p {
+          font-size: 18px;
+        }
+      
+        .experience-box h2 {
+          font-size: 40px;
+        }
+      
+        .experience-box p {
+          font-size: 16px;
+        }
+      }
+      
+@media (max-width: 576px) {
+        .stat-box h3 {
+          font-size: 28px;
+        }
+      
+        .stat-box p {
+          font-size: 16px;
+        }
+      
+        .experience-box h2 {
+          font-size: 32px;
+        }
+      
+        .experience-box p {
+          font-size: 14px;
+        }
+    } */
+    /* .experience-section {
         height: 723px;
     }
     
-    /* .stat-box {
+    .stat-box {
           padding: 30px;
           gap: 2px;
           border-radius: 4px ;
@@ -588,9 +759,9 @@ body {
           box-shadow: 0px 4px 6px -2px #1118270D;
           box-shadow: 0px 12px 16px -4px #1118271A;
           position: absolute;     
-    }
-     */
-    .stat-box1 {
+    } 
+    
+     .stat-box1 {
         width: 361px;
         height: Hug (155px)px;
         top: 221px;
@@ -649,7 +820,8 @@ body {
         
       }
     .experience-box{
-        top: 172px;
+       
+        top: -1000px;
         width: 359px;
     }
       
@@ -672,18 +844,18 @@ body {
         font-weight: 600;
         width: 176px;
         height: 53px;
-      }
-      
+      } 
+       */
       /* .experience-box button:hover, .card-btn:hover , .background1 button:hover .contact button:hover{
         background-color: #f1cf76;
       }  
-       */
+      
     /* ------------------------------------------------------------------------------------------------------------------------------- */
     /* .background2 {
         background: url('background2.png') no-repeat center center; 
         background-size: cover;  
         height: 300px;
-    } */
+    } *
     .background2 h2,p{
         margin-left: 45px;
     }
@@ -699,7 +871,7 @@ body {
     /* .projects-section {
         padding: 100px 0;
        
-    } */
+    } *
     
     .projects-section h2 {
         margin-left: 50px;
@@ -726,7 +898,7 @@ body {
     
     .list-group-item:hover {
         color: #3333ff;
-    } */
+    } *
     
     .card img {
         height: 200px;
@@ -737,7 +909,7 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-    } */
+    } *
     
     .dots {
         width: Hug (144px)px;
@@ -753,77 +925,54 @@ body {
     /* .dot.active {
         
         background-color: #2947A9;
-    } */
-    /* ---------------------------------------------------------------------------------------------------------------- */
+    } *
+    /* ---------------------------------------------------------------------------------------------------------------- *
     /* .form-section{
         padding: 50px 0;
-    } */
-    .form-container{
-        margin-left: 424px;
-        width: 600px;
-    
-    }
-    .form-container button{
-        width: 271px;
-        gap: 10px;
-        
-    }
-    /* ------------------------------------------------------------------------------------------------------------- */
-    .contact {
-        height: 377px;
+    } *
+    .form-container {
+        width: 100%;
+        padding: 0 20px;
     }
     
-    .contact1 {
-        font-size: 20px;
-        font-weight: 400;
-        width: 469px;
-        height: 133px;
-        
+    .form-container button {
+        width: 100%;
+        padding: 12px;
+    }
+
+    .form-section p, .form-section h2 {
+        padding: 0 20px;
+    }
+
+
+    .contact{
+        height: 500px;
+    }
+    .contact1, .contact2 {
+        text-align: center;
+        margin-bottom: 20px;
     }
     
-    .contact2 {
-        text-align: left;
-    }
-    
-    .contact h5, .contact1 p {
-        font-size: 20px;
-        font-weight: 500;
-       
-    }
-    
-    .contact1 p strong {
-        font-weight: bold;
-    }
-    
-    .contact1 a {
-        font-size: 20px;
-        font-weight: 500;
-       
+    .contact1 a, .contact h5, .contact1 p, .contact .btn, .contact .form-control {
+        font-size: 16px;
     }
     
     .contact .form-control {
-        width: 280px;
-        height: 41px;
-        
+        width: 100%;
+        height: 35px;
+        padding: 8px;
     }
     
     .contact .btn {
-        font-size: 18px;
-        font-weight: 600;
-        width: 136px;
-        height: 41px;
-        
+        width: 100%;
+        height: 35px;
+        padding: 8px;
     }
+
     .contact a img {
-        width: 30px;
-        margin-right: 10px;
+        width: 20px;
     }
-    
-    /* .contact-logo {
-        width: 163px;
-        height: 47.5px;
-    } */
-    /* -------------------------------------------------------------------------------------------------------------------------- */
+
     .footer{
         height: 70px;
     }
@@ -836,3 +985,59 @@ body {
    
     
 }
+@media (max-width: 576px) {
+    .form-container {
+        padding: 0 10px;
+    }
+    
+    .form-container button {
+        padding: 10px;
+    }
+
+    .form-section p, .form-section h2 {
+        padding: 0 10px;
+    }
+
+    .mb-3 textarea {
+        width: 100%;
+    }
+}
+@media (max-width: 992px) {
+    .form-container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+}
+@media (max-width: 1200px) {
+    .footer {
+        padding: 0 50px;
+    }
+}
+
+@media (max-width: 992px) {
+    .footer {
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    .footer p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer {
+        padding: 0 10px;
+    }
+
+    .footer p {
+        font-size: 12px;
+    }
+} */
