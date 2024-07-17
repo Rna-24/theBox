@@ -1,0 +1,379 @@
+@media (max-width: 1200px) {
+    .experience-section{
+        height: 100%;
+    }
+    .stat-box1, .stat-box2, .stat-box3, .stat-box4 {
+      width: 100%;
+      height: auto;
+      position: relative;
+      top: auto;
+      left: auto;
+      margin-bottom: 30px;
+    }
+  
+    .stat-box h3 {
+      font-size: 48px;
+    }
+  
+    .stat-box p {
+      font-size: 20px;
+    }
+    .footer {
+        padding: 0 50px;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .reputation {
+        height: 100%;
+        
+    }
+    .services-sec{
+        height: 100%;
+    }
+    .experience-section{
+        height: 100%;
+    }
+    .contact{
+        height: 100%;
+    }
+    #projects .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #projects .card {
+        flex: 1 0 100%; 
+        margin: 1%;
+    }
+    .projects-section {
+        padding: 70px 0;
+    }
+
+    .projects-section h2 {
+        margin-left: 30px;
+        font-size: 28px;
+    }
+
+    .list-group-item {
+        margin-left: 30px;
+        font-size: 16px;
+    }
+
+    .controlers button {
+        width: 100%;
+        height: 50px;
+    }
+
+    .dots {
+        width: 120px;
+        gap: 12px;
+    }
+
+    .col-md-8 .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .col-md-8 .col-md-4 {
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding-left: 15px;
+        padding-right: 15px;
+        box-sizing: border-box;
+    }
+    .contact .form-inline.d-md-flex {
+        display: block;
+    }
+    .contact .form-inline.d-md-none {
+        display: flex;
+    }
+    .form-container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    .contact .form-inline {
+        display: block;
+    }
+
+    .contact .form-control {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .contact .btn {
+        width: 100%;
+    }
+    .footer {
+        padding: 0 30px;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    
+    .theBox-icon {
+        margin-left: 80px;
+    }
+    .theBox{
+        font-size: 30px;
+        font-weight: 700;
+        margin-left: 50px;
+    } 
+    .nav-items{
+     margin-right: 50px;
+    }
+    .background1 {
+        width: 100%;
+        position: relative;
+    }.background1 h1{
+        font-size: 32px;
+        margin-left: 100px;
+    }
+    .projects {
+        margin-top: 456px; 
+        width: 416px;
+        height: 190px;
+    }
+    .projects h5 {
+        font-weight: 700;    
+        font-size: 20px; 
+    }
+    
+    .projects p {
+        margin: 20px 0 20px 0;
+        font-size: 24px;
+        font-weight: 400;    
+    } 
+    .about-us{
+        height: 945px;
+    }
+    .about-us-card {
+        top:100%;
+        left:50%;
+        height:100%;
+        min-height: fit-content;
+      }
+    .aboutUs-img{
+        width: 100%;
+        
+        }
+    .aboutUs-content{
+        
+        width: 388px;
+        height: 207px;
+        size: 20px; 
+        margin-left:-40px;
+    } 
+    
+    .about-us-card h3{
+        font-size: 36px;
+        font-weight: 700;
+    
+    }  
+    
+    .card-btn{
+        
+        font-size: 18px;
+        font-weight: 600; 
+        } 
+
+    .stat-box h3 {
+      font-size: 36px;
+    }
+  
+    .stat-box p {
+      font-size: 18px;
+    }
+  
+    .experience-box h2 {
+      font-size: 40px;
+    }
+  
+    .experience-box p {
+      font-size: 16px;
+    }
+    .background2 {
+        height: 250px; 
+    }
+
+    .background2 h2, 
+    .background2 p {
+        margin-left: 20px; 
+    }
+
+    .btn-outline-light {
+        width: 100%; 
+        padding: 12px; 
+    }
+
+    .projects-section {
+        padding: 50px 0;
+    }
+
+    .projects-section h2 {
+        margin-left: 20px;
+        font-size: 24px;
+    }
+
+    .list-group-item {
+        font-size: 14px;
+        margin-left: 10px;
+    }
+
+    .controlers button {
+        
+        width: 100%;
+        height: 50px;
+    }
+
+    .dots {
+        width: 100px;
+        gap: 10px;
+        margin: 10px 0;
+    }
+    #projects .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #projects .card {
+        flex: 1 0 100%;
+        margin: 1%;
+    }
+
+    .pagination {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    #projects .col-6 {
+        width: 100%;
+    }
+    contact1, .contact2 {
+        text-align: center;
+    }
+
+    .contact-logo {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .contact a img {
+        margin: 0 5px;
+    }
+    
+    .footer {
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    .footer p {
+        font-size: 14px;
+    }
+  }
+  
+
+
+@media (max-width: 576px) {
+   
+   
+    .stat-box h3 {
+        font-size: 28px;
+      }
+    
+    .stat-box p {
+        font-size: 16px;
+      }
+    
+    .experience-box h2 {
+        font-size: 32px;
+      }
+    
+    .experience-box p {
+        font-size: 14px;
+      }
+    .background2 {
+        height: 200px; 
+    }
+
+    .background2 h2 {
+        font-size: 1.5rem; 
+    }
+
+    .background2 p {
+        font-size: 0.9rem; 
+    }
+    
+    .projects-section {
+        padding: 30px 0;
+    }
+
+    .projects-section h2 {
+        margin-left: 5px;
+        font-size: 20px;
+    }
+
+    .list-group-item {
+        margin-left: 5px;
+        font-size: 14px;
+    }
+
+    .controlers button {
+        width: 100%;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .dot {
+        width: 8px;
+        height: 8px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    #projects .col-6 {
+        width: 100%;
+    }
+
+    .form-container {
+     padding: 0 10px;
+     }
+
+    .form-container button {
+     padding: 10px;
+    }
+
+    .form-section p, .form-section h2 {
+     padding: 0 10px;
+    } 
+
+    .mb-3 textarea {
+     width: 100%;
+    }
+    .contact h5, .contact1 p {
+        font-size: 16px; /* Further reduce font size */
+    }
+   
+    .contact1 {
+        margin-bottom: 30%; 
+    }
+    
+    .footer {
+        padding: 0 10px;
+    }
+
+    .footer p {
+        font-size: 12px;
+    }
+}
+
